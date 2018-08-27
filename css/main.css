@@ -1,0 +1,262 @@
+body.bg {
+ background: #000000 url(https://i.imgur.com/Uee913D.jpg) no-repeat top center;
+ 
+
+}
+#header {
+ position: relative;
+}
+.sp-wrap {
+ max-width: 960px;
+ margin-left: auto;
+ margin-right: auto;
+}
+a {
+ text-decoration: none;
+ color: #947547;
+}
+
+a#logo, #logo-text {
+ float: right;
+margin: 10px -100px;
+}
+a#logo {
+ background: url(https://i.imgur.com/s74jXxD.png) no-repeat 0 100% ;
+
+ /* opacity: 0.7; */
+
+
+}
+.clr {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+#hornav {
+    background: #070608 url(http://w0.ahs-online.xyz/templates/shaper_neo/images/hornav.png) repeat-x 0 0;
+    height: 44px;
+    width: 1200px;
+    margin-right: -300px;
+    float: middle;
+}
+#hornav, #sublevel {
+    position: relative;
+    margin: 10px -105px;
+}
+#hornav, #sublevel {
+    border-radius: 6px;
+}
+#hornav ul.level-0, #sublevel ul.level-1 {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#hornav ul.level-0 > li.menu-item.first {
+    border-radius: 5px 0 0 5px;
+}
+#hornav ul.level-0 > li.menu-item {
+    border-right: 1px solid #222;
+    text-align: center;
+}
+#hornav ul.level-0 > li.menu-item, #sublevel ul.level-1 > li.menu-item {
+    background: none;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#hornav ul.level-0 > li.menu-item.active > a.menu-item, #hornav ul.level-0 > li.menu-item:hover > a.menu-item, #sublevel ul.level-1 > li.menu-item.active > a.menu-item, #sublevel ul.level-1 > li.menu-item:hover > a.menu-item {
+    color: #A0522D;
+    size: 20px;
+}
+#hornav ul.level-0 > li.menu-item span.menu-title, #sublevel ul.level-1 > li.menu-item span.menu-title {
+    display: block;
+    text-transform: uppercase;
+}
+#hornav ul.level-0 > li.menu-item.active span.menu-desc, #hornav ul.level-0 > li.menu-item:hover span.menu-desc, #sublevel ul.level-1 > li.menu-item.active span.menu-desc, #sublevel ul.level-1 > li.menu-item:hover span.menu-desc {
+    color: #999;
+}
+#hornav ul.level-0 > li.menu-item > a.menu-item, #sublevel ul.level-1 > li.menu-item > a.menu-item {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+    text-decoration: none;
+    margin: 0;
+    padding: 10px 15px;
+    color: #999;
+    font-family: Georgia,Arial,Verdana;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+#sp-maincol {
+    width: 45%;
+    margin: 3px 100px -40px;
+}
+#sp-leftcol, #sp-rightcol, #sp-maincol, #sp-inset1, #sp-inset2, #inner_content {
+    float: left;
+}
+#sp-leftcol, #sp-rightcol, #sp-maincol {
+    padding: -25px 0 0 0;
+   }
+    .sp-inner {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+p, ul, ol, h1, h2, h3, h4, h5, h6 {
+    margin: 0.7em 0;
+    padding: 0;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.mod-wrapper-image {
+    background: whitesmoke;
+    padding: 10px;
+    border: 1px solid #2c2c2c;
+    height: 380px;
+}
+.vied {
+    background: url(https://i.imgur.com/R90rRSG.png) 100% 100% no-repeat;
+    display: block;
+    position: relative;
+    width: 65%;
+    height: 70%;
+    z-index: 2;
+    opacity: 0.7;
+}
+.clr {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+#inner_content {
+    width: 100%;
+}
+.sp-inner {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.mod-wrapper, .mod-wrapper-flat {
+    position: relative;
+}
+.mod-wrapper {
+    background: whitesmoke;
+    padding: 10px;
+    border: 1px solid #2c2c2c;
+    opacity: 0.99;
+}
+.sptabs, .mod-wrapper, div.subCategory, #inner_content .sp-content-inner {
+    box-shadow: 1px 5px 10px #0F0F0F;
+    
+}
+.mod-wrapper h3.header {
+    background: #070608 url(https://i.imgur.com/eWnH0db.png) repeat-x 0 0;
+    font-size: 14px;
+    line-height: normal;
+    margin: -10px -10px 10px -10px;
+    padding: 8px 10px;
+    color: #D6D6D6;
+    border-bottom: 1px solid #e5e5e5;
+    /* text-transform: uppercase; */
+}
+h2, h3, h1.itemTitle, h2.itemTitle, h3.catItemTitle, .itemListSubCategories h3, .subCategory h2, .itemCommentsCounter {
+    font-family: 'Georgia', arial, serif;
+}
+span.badge_hot {
+    background: url(https://i.imgur.com/jn1gjLq.png) no-repeat 100% 0;
+}
+div.ns2-art-pages, div.ns2-links-pages {
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: height 300ms;
+    -moz-transition: height 300ms;
+    -o-transition: height 300ms;
+    -ms-transition: height 300ms;
+    transition: height 300ms;
+}
+div.ns2-page {
+    overflow: hidden;
+}
+div.nssp2 .flt-left {
+    float: left;
+}
+div.nssp2 .col-3 {
+    width: 33.333%;
+}
+.ns2-image {
+    background: whitesmoke;
+    margin: 0 10px 10px 10px;
+    padding: 3px;
+    box-shadow: 1px 5px 10px #0F0F0F;
+}
+img.ns2-image {
+    max-width: 100%;
+    height: auto;
+}
+h4.ns2-title {
+    font-size: 11px;
+    font-weight: normal;
+    text-align: center;
+}
+.gap {
+    clear: both;
+    margin-bottom: 10px;
+}
+.mod-wrapper2 {
+    background: whitesmoke;
+    margin: 0 10px 10px 10px;
+    padding: 0 10px 10px 10px;
+    box-shadow: 1px 5px 10px #0F0F0F;
+}
+.mod-wrapper2 h1 {
+    color: #474747;
+    font-family: Georgia,Verdana,Arial;
+}
+#sp-rightcol {
+    width: 33%;
+}
+#sp-leftcol, #sp-rightcol, #sp-maincol, #sp-inset1, #sp-inset2, #inner_content {
+    float: left;
+}
+#sp-leftcol, #sp-rightcol,  {
+    padding: 10px 0 0 0;
+   
+    width: 250px;
+}
+#sp-maincol{
+ width: 500px;
+}
+.ya-share2, .ya-share2 * {
+    line-height: normal;
+}
+.ya-share2__list {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.modulezs {
+    background: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    
+}
